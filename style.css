@@ -7,7 +7,7 @@
 body {
 
   background-color: #fff;
-  font-family: sans-serif;
+  font-family: DroidKufi;
   direction: rtl;
   height: 100vh;
 }
@@ -35,10 +35,124 @@ body {
 
 .top-nav-right a {
 
-  content: #cfcfcf;
+  color: #cfcfcf;
   text-decoration: none;
   position: relative;
   line-height: 15px;
   font-size: 15px;
 
+}
+
+.top-nav-right a:hover {
+  color: blue;
+}
+
+.top-nav-right .facebook:hover {
+  color: blue;
+}
+
+.top-nav-right .twitter:hover {
+  color: rgb(104, 146, 224);
+}
+
+.top-nav-right .youtube:hover {
+
+  color: red;
+}
+
+
+.top-nav-center {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.top-nav-center a {
+  text-decoration: none;
+  color: #cfcfcf;
+}
+
+.top-nav-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info {
+
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.info-alasema h3 {
+  color: gray;
+}
+
+.nav-main {
+
+  background-color: #292929;
+  height: 40px;
+  margin-top: 10px;
+  justify-content: space-around;
+  display: flex;
+  color: #cfcfcf;
+}
+
+.nav-main a {
+  color: #cfcfcf;
+  text-decoration: none;
+  justify-content: space-around;
+}
+
+.nav-main .main {
+
+  background-color: red;
+  height: 40px;
+  width: 40px;
+}
+
+.nav-main a:hover {
+  color: red;
+}
+
+.sidebar {
+  display: flex;
+}
+
+.articles {
+  display: flex;
+  gap: 14px;
+
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  width: fit-content;
+
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+
+}
+
+.text :nth-child(1) {
+  color: red;
+}
+
+.text :nth-child(2) {
+  color: black;
+  display: block;
+  text-align: right;
+
+}
+
+.sidebar-two {
+  background-color: #fff;
+  box-sizing: border-box;
 }
