@@ -9,7 +9,7 @@ body {
   background-color: #fff;
   font-family: DroidKufi;
   direction: rtl;
-  height: 100vh;
+
 }
 
 .top-nav {
@@ -96,6 +96,7 @@ body {
   height: 40px;
   margin-top: 10px;
   justify-content: space-around;
+  align-items: center;
   display: flex;
   color: #cfcfcf;
 }
@@ -107,14 +108,17 @@ body {
 }
 
 .nav-main .main {
-
+  align-items: center;
+  display: flex;
   background-color: red;
   height: 40px;
   width: 40px;
 }
 
 .nav-main a:hover {
-  color: red;
+  color: white;
+  padding: 10px;
+  background-color: red;
 }
 
 .sidebar {
@@ -155,4 +159,102 @@ a {
 .sidebar-two {
   background-color: #fff;
   box-sizing: border-box;
+}
+
+.egypt-news {
+  background-color: #292929;
+  display: grid;
+  grid-template-rows: 89% 80% 50%;
+  grid-template-columns: 38% 36% 36%;
+  color: #cfcfcf;
+  margin-top: 20px;
+  padding: 30px;
+  align-items: center;
+}
+
+
+.news a span {
+  color: #fff;
+  font-size: 30px;
+  border-bottom: 1px solid #eeeeee49;
+  transition: 0.5 color;
+  position: relative;
+
+}
+
+.news a span:hover {
+  color: red;
+}
+
+.news-two a {
+  color: white;
+  background-color: red;
+  border: red solid 5px;
+
+}
+
+.news img {
+  width: 85%;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: #fff solid 5px;
+  flex: 0 0 auto
+}
+
+.text-one {
+  color: #fff;
+  gap: 20px;
+}
+
+.text-one a {
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  display: flex;
+
+
+}
+
+
+.text-one .time {
+  color: gray;
+  margin-bottom: 0.3rem;
+  gap: 15px;
+  transition: all 0.4s ease-in-out;
+  display: block;
+}
+
+.text-one .read {
+  color: #fff;
+  background-color: red;
+  border: red solid 5px;
+}
+
+.egypt-news-two {
+  background-color: #292929;
+  display: flex;
+  color: #cfcfcf;
+  margin-top: 20px;
+  padding: 30px;
+  align-items: center;
+}
+
+.img-two img {
+  width: 30%;
+  margin-top: 20px;
+  box-sizing: border-box;
+  border: #fff solid 5px;
+  flex: 0 0 auto
+}
+
+.img-two a {
+  color: white;
+  background-color: red;
+  border: red solid 10px;
+}
+
+.news .eg-ne {
+  color: white;
+  background-color: red;
+  border: red solid 10px;
 }
